@@ -1,0 +1,15 @@
+public class Main {
+    class coche{
+        int numeroPuertas = 2;
+        coche miCoche = new coche();
+    }
+    public static void main(String[] args) {
+        var numeroPuertas = 2;
+        int resultado;
+                resultado = suma(numeroPuertas,1);
+        System.out.println(resultado);
+    }
+    public static int suma(int a, int b) {
+        return a + b;
+    }
+}
